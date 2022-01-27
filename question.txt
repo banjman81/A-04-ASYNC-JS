@@ -1,17 +1,26 @@
 1. What does it mean when we say javascript is asynchronous?
+    JS will run top to bottom but will not wait for a function to finish running before moving on to the next one and multiple functions can run at the same time.
 
 2. What are javascript promises?
+    Promises are statements the let the code know there are unfinished it needs to resolve or reject. Placehoder for result so program doesnt forget
 
 3. What does it mean when a promise resolves?
+    the promise return without error
 
 4. What does it mean when a promise rejects?
+    there wasan error in promise
 
 5. Explain the use of .then() on promises
+    instructrons when there is no error
 
 6. 5. Explain the use of .catch() on promises
+    instructrons when there is error
 
 7. Explain the use of .finally() on promises
+    return specified output regardless resolve or reject
 
 8. Explain async functions and how async/await are used.
+    they are used to access to a databases or apis
 
 9. Provide one example of how promises can be used.
+    it can be ued on a web page to hold a post when everything else that doesnt need to wait renders on page first
